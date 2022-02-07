@@ -17,6 +17,10 @@ __Updates__
 
 -->
 
+7-February-2022    |
+------------|
+• Changed endpoints from /xrs/ to /v1/ |
+
 7-June-2021    |
 ------------|
 • Fixed white space issue caused by new slate branch |

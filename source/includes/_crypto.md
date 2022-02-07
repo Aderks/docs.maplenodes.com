@@ -30,7 +30,7 @@ Returns the current price of any given crypto currency ticker(s) in the desired 
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["BTC,DASH","USD,CAD"]' https://api.maplenodes.com/xrs/CCMultiPrice
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["BTC,DASH","USD,CAD"]' https://api.maplenodes.com/v1/CCMultiPrice
 ```
 
 <code class="api-call">CCMultiPrice [tickers] [currencies]</code>
@@ -90,7 +90,7 @@ Returns the current price of any given cryptocurrency ticker in the desired curr
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["BTC","USD,CAD"]' https://api.maplenodes.com/xrs/CCSinglePrice
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["BTC","USD,CAD"]' https://api.maplenodes.com/v1/CCSinglePrice
 ```
 
 <code class="api-call">CCSinglePrice [ticker] [currencies]</code>
@@ -143,7 +143,7 @@ Returns the top list exchanges based on volume by pair. Pricing information prov
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["BTC","USD"]' https://api.maplenodes.com/xrs/CCTopExchangesVolumeByPair
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["BTC","USD"]' https://api.maplenodes.com/v1/CCTopExchangesVolumeByPair
 ```
 
 <code class="api-call">CCTopExchangesVolumeByPair [ticker] [currency]</code>
@@ -244,7 +244,7 @@ Returns the top list by market cap. Pricing information provided by Crypto Compa
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["10","USD"]' https://api.maplenodes.com/xrs/CCTopListMarketCap
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["10","USD"]' https://api.maplenodes.com/v1/CCTopListMarketCap
 ```
 
 <code class="api-call">CCTopListMarketCap [limit] [currency]</code>
@@ -1486,7 +1486,7 @@ Returns the top list of 24 hour volume. Pricing information provided by Crypto C
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["10","USD"]' https://api.maplenodes.com/xrs/CCTopListVolume24H
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["10","USD"]' https://api.maplenodes.com/v1/CCTopListVolume24H
 ```
 
 <code class="api-call">CCTopListVolume24H [limit] [currency]</code>
@@ -2726,7 +2726,7 @@ Returns the top list of volume by pair. Pricing information provided by Crypto C
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["BTC"]' https://api.maplenodes.com/xrs/CCTopListVolumeByPair
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["BTC"]' https://api.maplenodes.com/v1/CCTopListVolumeByPair
 ```
 
 <code class="api-call">CCTopListVolumeByPair [ticker]</code>

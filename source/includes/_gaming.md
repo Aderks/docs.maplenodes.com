@@ -19,7 +19,7 @@ Play a round of BlackJack. Rounds expire after 30 minutes of no action. Limited 
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '[]' https://api.maplenodes.com/xrs/BlackJack
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '[]' https://api.maplenodes.com/v1/BlackJack
 ```
 
 <code class="api-call">BlackJack</code>
@@ -72,7 +72,7 @@ BlackJack hit on the given round id. Hit once or multi-hit until desired player 
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["464"]' https://api.maplenodes.com/xrs/BlackJackHIT
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["464"]' https://api.maplenodes.com/v1/BlackJackHIT
 ```
 
 <code class="api-call">BlackJackHIT [round_id]</code>
@@ -128,7 +128,7 @@ BlackJack stand on the given round id. Dealer will reveal the hand, and a winner
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["256"]' https://api.maplenodes.com/xrs/BlackJackSTAND
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["256"]' https://api.maplenodes.com/v1/BlackJackSTAND
 ```
 
 <code class="api-call">BlackJackSTAND [round_id]</code>

@@ -20,7 +20,7 @@ View TrollBox chat.
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '[]' https://api.maplenodes.com/xrs/TrollBox
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '[]' https://api.maplenodes.com/v1/TrollBox
 ```
 
 <code class="api-call">TrollBox</code>
@@ -111,7 +111,7 @@ Send message to the TrollBox chat. View chat via [TrollBox](#trollbox).
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["anon","Hi there, testing things out!"]' https://api.maplenodes.com/xrs/TrollBoxMsg
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["anon","Hi there, testing things out!"]' https://api.maplenodes.com/v1/TrollBoxMsg
 ```
 
 <code class="api-call">TrollBoxMsg [alias] ["message"]</code>
@@ -165,7 +165,7 @@ View delivery status information of any SMS sent.
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["SM8f39577bd098429f853a48e6b898471f"]' https://api.maplenodes.com/xrs/TwilioSMSStatus
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["SM8f39577bd098429f853a48e6b898471f"]' https://api.maplenodes.com/v1/TwilioSMSStatus
 ```
 
 <code class="api-call">TwilioSMSStatus [sms_id]</code>
@@ -228,7 +228,7 @@ Send SMS message.
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["+15551234567","Hi there, testing things out!"]' https://api.maplenodes.com/xrs/TwilioSendSMS
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["+15551234567","Hi there, testing things out!"]' https://api.maplenodes.com/v1/TwilioSendSMS
 ```
 
 <code class="api-call">TwilioSendSMS [to_phone_number] ["message"]</code>

@@ -39,7 +39,7 @@ Displays live sports odds data from bookmakers located in the United States, Uni
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["americanfootball_nfl","us"]' https://api.maplenodes.com/xrs/LiveSportsOdds
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["americanfootball_nfl","us"]' https://api.maplenodes.com/v1/LiveSportsOdds
 ```
 
 <code class="api-call">LiveSportsOdds [id_key] [region]</code>
@@ -600,7 +600,7 @@ Displays a list of sports available to view head-to-head (moneyline) odds.
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["0"]' https://api.maplenodes.com/xrs/LiveSportsOddsList
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["0"]' https://api.maplenodes.com/v1/LiveSportsOddsList
 ```
 
 <code class="api-call">LiveSportsOddsList [view_all]</code>
