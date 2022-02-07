@@ -25,7 +25,7 @@ Retrieves the latest pricing and volume information for a given stock.
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["AAPL"]' https://api.maplenodes.com/xrs/GlobalStockLatestInfo
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["AAPL"]' https://api.maplenodes.com/v1/GlobalStockLatestInfo
 ```
 
 <code class="api-call">GlobalStockLatestInfo [ticker_symbol]</code>
@@ -93,7 +93,7 @@ Information for globally traded assets based on a single keyword search. Any ass
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["google"]' https://api.maplenodes.com/xrs/GlobalStockSymbolSearch
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["google"]' https://api.maplenodes.com/v1/GlobalStockSymbolSearch
 ```
 
 <code class="api-call">GlobalStockSymbolSearch [keyword]</code>

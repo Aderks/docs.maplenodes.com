@@ -26,7 +26,7 @@ Retrieve weather data for a given city,country.
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["Toronto,CAD","metric"]' https://api.maplenodes.com/xrs/CurrentWeatherData
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["Toronto,CAD","metric"]' https://api.maplenodes.com/v1/CurrentWeatherData
 ```
 
 <code class="api-call">CurrentWeatherData [city_or_city,country] [unit_of_measurement]</code>

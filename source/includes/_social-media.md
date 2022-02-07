@@ -21,7 +21,7 @@ All available 4chan boards.
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '[]' https://api.maplenodes.com/xrs/4chanBoards
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '[]' https://api.maplenodes.com/v1/4chanBoards
 ```
 
 <code class="api-call">4chanBoards</code>
@@ -1603,7 +1603,7 @@ description     | string     | 4chan board description.
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["biz","904256"]' https://api.maplenodes.com/xrs/4chanThreadViewer
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["biz","904256"]' https://api.maplenodes.com/v1/4chanThreadViewer
 ```
 
 <code class="api-call">4chanThreadViewer [board] [thread_number]</code>
@@ -1677,7 +1677,7 @@ comment         | string     | Comment from user.
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["biz","904256","BTC","USD"]' https://api.maplenodes.com/xrs/4chanThreadViewerPrice
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["biz","904256","BTC","USD"]' https://api.maplenodes.com/v1/4chanThreadViewerPrice
 ```
 
 <code class="api-call">4chanThreadViewerPrice [board] [thread_number] [ticker] [currency]</code>
@@ -1759,7 +1759,7 @@ comment            | string     | Comment from user.
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["biz"]' https://api.maplenodes.com/xrs/4chanThreads
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["biz"]' https://api.maplenodes.com/v1/4chanThreads
 ```
 
 <code class="api-call">4chanThreads [board]</code>
@@ -3042,7 +3042,7 @@ Searches Twitter for tweets based on user inputs. Search is limited to 1 week hi
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["%24btc","popular","15"]' https://api.maplenodes.com/xrs/TwitterSearch
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["%24btc","popular","15"]' https://api.maplenodes.com/v1/TwitterSearch
 ```
 
 <code class="api-call">TwitterSearch [keyword] [result_type] [tweet_count]</code>

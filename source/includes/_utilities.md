@@ -27,7 +27,7 @@ Shortens user provided URL via Bitly.
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["https://www.google.com/"]' https://api.maplenodes.com/xrs/BitlyURLShortener
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["https://www.google.com/"]' https://api.maplenodes.com/v1/BitlyURLShortener
 ```
 
 <code class="api-call">BitlyURLShortener [long_url]</code>
@@ -81,7 +81,7 @@ Outputs the exchange rate between two currency pairs.
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["CAD","USD"]' https://api.maplenodes.com/xrs/CurrencyExchangeRate
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '["CAD","USD"]' https://api.maplenodes.com/v1/CurrencyExchangeRate
 ```
 
 <code class="api-call">CurrencyExchangeRate [currency_id1] [currency_id2]</code>
@@ -123,7 +123,7 @@ Outputs a full list of world currency names.
 > Sample Request
 
 ```shell
-curl -H "Accept: application/json" -H "Content-Type: application/json" -d '[]' https://api.maplenodes.com/xrs/WorldCurrencyList
+curl -H "Accept: application/json" -H "Content-Type: application/json" -d '[]' https://api.maplenodes.com/v1/WorldCurrencyList
 ```
 
 <code class="api-call">WorldCurrencyList</code>
